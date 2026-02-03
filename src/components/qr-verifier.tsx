@@ -79,7 +79,7 @@ export default function QRVerifier() {
                             <Scanner
                                 onScan={handleScan}
                                 formats={['qr_code']}
-                                components={{ audio: false, onOff: true }}
+                                components={{ onOff: true }}
                             />
                             <p className="absolute bottom-2 left-0 right-0 text-center text-white text-xs bg-black/50 py-1">Apunte al código QR</p>
                         </div>
